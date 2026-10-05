@@ -77,6 +77,11 @@ const resolution_t RESOLUTION_640x240 = {640, 240, false};
 const resolution_t RESOLUTION_512x480 = {512, 480, true};
 /** @brief 640x480 mode, interlaced */
 const resolution_t RESOLUTION_640x480 = {640, 480, true};
+/** @brief 480x360 mode non interlaced */
+const resolution_t RESOLUTION_480x360 = {480, 360, false};
+/** @brief 360x270 mode non interlaced */
+const resolution_t RESOLUTION_360x270 = {360, 270, false};
+
 #undef const
 
 /** @brief Valid bit depths */
