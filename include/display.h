@@ -178,6 +178,8 @@ const resolution_t RESOLUTION_640x240 = {.width = 640, .height = 240, .interlace
 const resolution_t RESOLUTION_512x480 = {.width = 512, .height = 480, .interlaced = INTERLACE_HALF};
 /** @brief 640x480 mode, interlaced, no borders */
 const resolution_t RESOLUTION_640x480 = {.width = 640, .height = 480, .interlaced = INTERLACE_HALF};
+/** @brief 480x360 mode,non interlaced, no borders */
+const resolution_t RESOLUTION_480x360 = {.width = 480, .height = 360,.interlaced = INTERLACE_OFF};
 
 #undef const
 
